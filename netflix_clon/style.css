@@ -1,0 +1,57 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+    
+}
+
+
+
+body{
+    height: 100%;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.hero-image{
+    height: 100vh;
+        background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/arkaplan.jpg);
+
+        
+}
+
+.hero-text{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+input{
+    width: 550px;
+    height: 60px;
+}
+
+button{
+    width: 150px;
+    height: 60px;
+    margin-left: 0;
+    position: absolute;
+    font-size: 20px; 
+}
+
+
+.çizgi{
+    border-bottom: 5px solid grey;
+}
+
+.inputiçerik:focus{
+    outline-style: solid;
+    outline-width: 3px;
+    
+    outline-color: green;
+
+}
+
